@@ -21,14 +21,9 @@ import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-/***
+/**
  * 
- * Every Automation script must and should extend Base_Test
- * In this class we have methods for browserSetup, loginToApplication, logoutOfApplication and browserTearDown
- * which is required for all the automation scripts
- * 
- * @author Sumanth
- * @author <a href="mailto:sumanth[dot]l[at]testyanta[dot]com">sumanth.l@testyantra.com</a>
+ * @author Chetan
  *
  */
 public class Base_Test extends InitObjects implements FrameworkConstants {

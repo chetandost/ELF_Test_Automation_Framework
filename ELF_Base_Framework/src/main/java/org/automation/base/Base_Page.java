@@ -7,11 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 /***
  * 
- * Every Page class must and should extend Base Page
- * In this page you will find all common elements of the Web App
- * 
- * @author Sumanth
- * 
+ * @author Chetan
+ *
  */
 public class Base_Page {
 
@@ -120,5 +117,8 @@ public class Base_Page {
 	public WebElement getDemoWebShopLogo() {
 		return demoWebShopLogo;
 	}
+
+	
+	}
 		
-}
+

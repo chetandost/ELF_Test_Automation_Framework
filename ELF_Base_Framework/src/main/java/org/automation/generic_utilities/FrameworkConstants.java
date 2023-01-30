@@ -13,7 +13,7 @@ public interface FrameworkConstants {
 	String FIREFOX_KEY = "webdriver.gecko.driver";
 	String FIREFOX_PATH = "./src/main/resources/drivers/geckodriver.exe";
 
-	String EXCEL_PATH = "./src/test/resources/testData/testData.xlsx";
+	String EXCEL_PATH = "./src\\test\\resources\\testData\\Tricentis (1).xlsx";
 	String PROPERTYFILE_PATH = "./src/test/resources/propertyFile/config.properties";
 	String SCREENSHOT_PATH = "./errorShots/";
 	
